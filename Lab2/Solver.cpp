@@ -5,7 +5,9 @@
 using namespace std;
 int main() {
   double a, b, c, d, e, f;
-  cin >> a >> b >> c >> d >> e >> f;
+  // cin >> a >> b >> c >> d >> e >> f;
+  a = b = c = d = e = f = 0;
+
   if ((a == 0) && (b == 0) && (c == 0) && (d == 0) && (e == 0) && (f == 0)) {
     cout << '5';
   } else if ((a * d - c * b != 0) && ((e * d - b * f != 0) || (a * f - c * e != 0))) {
