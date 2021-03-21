@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Any (x,y)",
+    "args": "0 0 0 0 0 0",
+    "res": "5"
+  },
+  {
+    "name": "No solution",
+    "args": "2 0 1 0 1 1",
+    "res": "0"
+  },
+  {
+    "name": "Single solution",
+    "args": "1 0 0 1 1 1",
+    "res": "2 1 1"
+  },
+  {
+    "name": "y=kx+n #1",
+    "args": "-2 1 0 0 0 0",
+    "res": "1 2 0"
+  },
+  {
+    "name": "y=kx+n #2",
+    "args": "0 0 2 1 0 0",
+    "res": "1 -2 0"
+  },
+  {
+    "name": "y=kx+n #3",
+    "args": "1 2 0 0 0 0",
+    "res": "1 -0.5 0"
+  },
+  {
+    "name": "y=kx+n #4",
+    "args": "2 4 1 2 1 0.5",
+    "res": "1 -0.5 0.25"
+  },
+  {
+    "name": "x=x0",
+    "args": "1 0 0 0 1 0",
+    "res": "3 1"
+  },
+  {
+    "name": "y=y0",
+    "args": "0 1 0 0 1 0",
+    "res": "4 1"
+  },
+  { "name": "Bad test",
+    "args":"0 0 0 0 0 0",
+    "res":"0"}
+
+]

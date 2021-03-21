@@ -3,10 +3,21 @@
 #include <cmath>
 #include <iostream>
 using namespace std;
-int main() {
+int main(int argc, char** argv) {
   double a, b, c, d, e, f;
   // cin >> a >> b >> c >> d >> e >> f;
-  a = b = c = d = e = f = 0;
+
+  // a = b = c = d = e = f = 0;
+
+  a = atof(argv[1]);
+  b = atof(argv[2]);
+  c = atof(argv[3]);
+  d = atof(argv[4]);
+  e = atof(argv[5]);
+  f = atof(argv[6]);
+
+  // cout << a << b << c << d << e << f << endl;
+  
 
   if ((a == 0) && (b == 0) && (c == 0) && (d == 0) && (e == 0) && (f == 0)) {
     cout << '5';
@@ -86,5 +97,6 @@ int main() {
   } else {
     cout << "Are you kidding me?";
   }
+  // cout << endl;
   return 0;
 }
